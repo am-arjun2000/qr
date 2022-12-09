@@ -1,5 +1,6 @@
 
 	<head>
+		<meta http-equiv="refresh" content="15; URL=index.html" />
 		<style>
 			/* CSS comes here */
 			body {
@@ -54,7 +55,7 @@
                 document.getElementById("qr-result").innerHTML = "QR code for " + qrtext +":";
                 // alert(qrtext);
                 qr.set({
-                    foreground: 'black',
+                    foreground: '#5868bf',
                     size: 200,
                     value: "upi://pay?pn="+pn+"&pa="+vpa+"&cu=INR&mode=01&am="+qrtext+"&orgid=000000&purpose=00"
 					// 
